@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f9f9f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.wrapper {
+  width: 450px;
+  background-color: blue;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  color: #fff;
+}
+
+input {
+  width: 85%;
+  height: 45px;
+  outline: none;
+  border: 1px solid #ccc;
+  font-size: 17px;
+  border-radius: 3px;
+  margin: 10px 0;
+}
+
+.add-btn {
+  width: 50px;
+  height: 43px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+ul li {
+  list-style: none;
+  background: #ccc;
+  padding: 10px;
+  font-size: 18px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  cursor: default;
+  overflow: hidden;
+}
+
+ul li button {
+  background: red;
+  width: 80px;
+  height: 25px;
+  border-radius: 40px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.clear-btn {
+  background: red;
+  color: #fff;
+  width: 100px;
+  height: 30px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
